@@ -1,32 +1,13 @@
 # org-to-bear
 
-FIXME: description
+Example how Clojure can be used to move your notes from org-mode to Bear App. 
 
-## Installation
+In my situation I have one large file with interlinked notes and I want to separate notes and preserve links between them. Of course I made some simplifications, but the main idea that you can use simplicity of Clojure to perform complicated data processing.
 
-Download from http://example.com/FIXME.
+The core of implementation is based on ability of org-mode to export notes to HTML format that can be easily processed
 
-## Usage
-
-FIXME: explanation
-
-    $ java -jar org-to-bear-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+More at:
+https://tech.deff.life/posts/using-clojure-migrate-from-org-mode-to-bear/
 
 ## License
 
